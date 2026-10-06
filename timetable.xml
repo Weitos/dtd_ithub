@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE timeTable SYSTEM "timetable.dtd">
+
+<timeTable>
+    <complexes>
+        <complex code="c_main">
+            <name>Главный корпус</name>
+            <address>ул. Университетская, д. 10</address>
+        </complex>
+        <complex code="c_sport">
+            <name>Спортивный комплекс</name>
+            <address>ул. Физкультурников, д. 5</address>
+        </complex>
+    </complexes>
+
+    <lessons>
+        <lesson no="1" complex="c_main">
+            <date>2026-10-06</date>
+            <time>09:00</time>
+        </lesson>
+        <lesson no="2" complex="c_sport">
+            <date>2026-10-06</date>
+            <time>10:45</time>
+        </lesson>
+    </lessons>
+</timeTable>
